@@ -1,10 +1,13 @@
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import MusicOnApp from './MusicOnApp.jsx'
+import React from 'react';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <MusicOnApp />
-  </React.StrictMode>
-)
+const MusicOnApp = () => {
+  return (
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>🎵 ¡Bienvenido a Music-On!</h1>
+      <p>Prototipo interactivo listo para usar.</p>
+    </div>
+  );
+};
+
+export default MusicOnApp;
